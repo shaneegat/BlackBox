@@ -1,0 +1,195 @@
+#wrapper{
+    margin:0px auto;
+    height: 900px;
+    background-color: #929292;
+
+}
+
+body{
+    background-color: #929292;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin:0px;
+    display: block;
+
+}
+
+h1, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+header{
+    height: 141px;
+    width: 100%;
+    background-color: #EBEBEB;
+
+}
+
+#logo{
+    background-image: url("../images/logo.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 182px;
+    height: 148px;
+    margin: 0 auto; 
+}
+
+h1{
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+}
+
+.center{
+    display: block;
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    width: 100%; 
+    height: 500px;
+}
+
+#users{
+    display: flex; 
+    left: 10px;
+}
+
+.user{
+    position: relative; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding: 40px;
+    right: 70px;
+}
+
+.car{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 164px;
+    height: 164px;
+    margin: 0 auto;   
+}
+
+.car:hover  {
+    opacity: 0.3;
+  }
+
+.car0{
+    background-image: url("/images/husbandsCar.png");
+}
+
+.car1{
+    background-image: url("/images/favoriteCar.png");
+}
+
+.car2{
+    background-image: url("/images/workCar.png");
+}
+
+.bi{
+    position: relative;
+    right: 10px; 
+}
+
+.bi:hover  {
+    opacity: 0.3;
+  }
+
+
+  /*************form 1***********************/
+
+  .body{
+    background-color: #EBEBEB;
+
+  }
+  
+  .container{ 
+    background-color: #EBEBEB;
+
+  }
+
+  .line-space{
+      margin-bottom: 40px;
+     
+  }
+
+  .space{
+    margin-bottom: 20px;
+  }
+
+  form > h5, form > h1{
+    color: black;
+  }
+
+  form > h1{
+      margin-bottom: 70px;
+  }
+
+  .bspace{
+    margin-bottom: 10px;
+    margin-top: 70px;
+  }
+
+  .terms{
+      margin-bottom: 50px;
+      margin-left: -10px;
+  }
+
+  .btn{
+    margin-bottom: 50px;
+    width: 150px;
+  }
+
+
+  @media only screen and(max-width: 770px){
+
+    #wrapper{
+        margin:0px auto;
+        width: 100%;
+        height: 100%;
+        background-color: #a52525;
+    
+    }
+    .center{
+        display: flex; 
+        flex-wrap: wrap;
+        width: 500px;
+    }
+
+    
+    #user{
+        display: flex; 
+        
+    }
+    
+    .user{
+        position: relative; 
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        color: white;
+        padding: 40px;
+        right: 70px;
+    }
+    
+    
+    .car{
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;   
+    }
+
+  }
+ 
+
+
+
+
